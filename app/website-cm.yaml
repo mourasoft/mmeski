@@ -19,8 +19,9 @@ data:
       </head>
       <body>
         <div>
-          <img height="400px" src="https://branding.cncf.io/img/projects/argo/icon/color/argo-icon-color.svg"></svg>
+          <img height="400px" src="https://blog.filador.fr/content/images/size/w2000/2020/12/argocd-logo.png"></svg>
           <h1>ArgoCD Rocks !</h1>
+          <h3>V1</h3>
         </div>
       </body>
     </html>
