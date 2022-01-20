@@ -13,4 +13,4 @@ spec:
       - path: /
         backend:
           serviceName: service-will-playground
-          servicePort: 80
+          servicePort: 80:8888
