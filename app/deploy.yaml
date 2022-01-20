@@ -17,8 +17,5 @@ spec:
       containers:
       - name: will-playground
         image: wil42/playground:v1
-        ports:
-        - containerPort: 8888
-        volumeMounts:
 
 
