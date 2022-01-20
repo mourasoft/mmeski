@@ -7,7 +7,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: deployment-will-playground
+    app: argocdrocks
   ports:
   - name: http
     port: 80
