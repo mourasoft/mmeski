@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: website-deployment
+  name: deployment-will-playground
   labels:
     app: argocdrocks
 spec:
@@ -15,14 +15,10 @@ spec:
         app: argocdrocks
     spec:
       containers:
-      - name: argocdrocks-nginy
-        image: nginx:alpine
+      - name: will-playground
+        image: wil42/playground:v1
         ports:
         - containerPort: 80
         volumeMounts:
-        - name: website-cm-volume
-          mountPath: /usr/share/nginx/html
-      volumes:
-      - name: website-cm-volume 
-        configMap:
-          name: website-cm
+
+

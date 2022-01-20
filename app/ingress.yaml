@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: website-ingress
+  name: ingress-will-playground
   labels:
     app: argocdrocks
   annotations:
@@ -13,5 +13,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: website-service
+          serviceName: service-will-playground
           servicePort: 80
